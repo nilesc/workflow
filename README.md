@@ -39,6 +39,14 @@ determine the details and integrate it into one's workflow. I strongly
 recommend going through this process even for things that are even only a bit
 inconvenient, as small savings add up very rapidly.
 
+### Putting this in to Practice
+For this to become natural, you will need to use and repeat the various
+actions described in this guide. Be constantly on the lookout for situations
+where these tools are appropriate, and be sure to use them. Personally, if I
+do something in an inefficient way while trying to learn a tool that improves
+that thing, I will often go as far as to deliberately undo that action and
+redo it in the efficient way. This is a good way to learn in the long run, but
+may be a bit extreme for some people in the short term.
 
 ## Initial Setup (One Time)
 ### .bashrc
