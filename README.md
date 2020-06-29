@@ -68,3 +68,53 @@ which can be created properly on a new machine by simply copying a .vimrc to
 the new machine's home directory. My own .vimrc is included in this repo, and
 I feel it is a good starting place. I highly encourage modifying one's vim
 setup to best suit one's specific needs.
+
+## tmux
+tmux is a terminal multiplexer. In practice, this allows you to turn a single
+terminal prompt into multiple, either in the form of splits on your screen, or
+in the form of multiple pages which can be swapped between, among other
+options. Furthermore, a particular arrangement of windows can be stored even
+when a terminal is closed. This has a number of advantages:
+1.  It allows a user to arrange windows in a way that works well for a
+    particular task. As an example, a user may have a setup involving
+    1.  a window open in which they are running vim to edit their code
+    1.  a separate window for compiling their code
+    1.  another in which to manage git
+    1.  and another window with various splits to explore the various
+        directories in which the relevant data are stored.
+1.  When working on a remote server through ssh, a user can make only one
+    connection and then work as though in several windows, which makes
+    workflows more natural.
+1.  It allows a user to more easily organize the elements of the system they
+    have to keep track of.
+1.  It allows for easy separation of workflows on separate projects, allowing
+    for switching between them with minimal overhead.
+
+### Basic Usage
+tmux is extremely powerful and complex. However, just to scratch the surface,
+here are some very useful commands with which to get started. In the following
+commands, a combination of keys followed by a comma, and then another
+combination means that first the keys before the comma should be pressed
+together, then the sequence of keys after the comma.
+*   `tmux`: start a new tmux session
+*   `tmux new -s <name>`: start a new tmux session named "name"
+*   `ctrl+b, d`: detach from the current tmux session
+*   `tmux attach`: reconnect to the most recent tmux session which was detached
+    from
+When in a tmux session:
+*   Windows:
+  *   `ctrl+b, c`: create a new window
+  *   `ctrl+b, x`: kill the current window
+  *   `ctrl+b, <number>`: jump to window number <number> (current windows are
+      displayed at the bottom of the screen)
+*   Splits:
+  *   `ctrl+b, %`: create a new vertical split
+  *   `ctrl+b, "`: create a new horizontal split
+  *   `ctrl+b, <arrow key>`: jump to the split in the direction of the arrow
+      key hit
+*   Sessions:
+  *   `ctrl+b, w`: open a view in which windows and sessions can be swapped
+      between. Use arrow keys to navigate to the correct session or window,
+      and hit enter to enter it
+*   `ctrl+d`: kill the current window/split (this is not a tmux-specific
+    command, but will usually kill whatever terminal it is entered in to
