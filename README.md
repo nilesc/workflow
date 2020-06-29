@@ -37,3 +37,24 @@ determine the details and integrate it into one's workflow. I strongly
 recommend going through this process even for things that are even only a bit
 inconvenient, as small savings add up very rapidly.
 
+
+## Initial Setup (One Time)
+### .bashrc
+This is a file that's stored in your home directory, and automatically run
+anytime you open terminal. You can use this to configure your command line to
+work however you want, including adding information to your prompt, or (my
+personal favorite) enable vim keybindings on the command line. This last is
+very helpful if, for example, you need to change the first flag in a very long
+list of flags on a command. The alternative in this case would be holding the
+left arrow key for up to several seconds, which is very inefficient and
+distracting.
+
+### .vimrc
+More will be said on vim in its own dedicated section, but as an overview,
+this is a file that will be stored at a user's home directory that will be
+referenced whenever vim is started, allowing a user to configure vim as they
+please. Furthermore, it is possible to have an extremely functional vim setup
+which can be created properly on a new machine by simply copying a .vimrc to
+the new machine's home directory. My own .vimrc is included in this repo, and
+I feel it is a good starting place. I highly encourage modifying one's vim
+setup to best suit one's specific needs.
