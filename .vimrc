@@ -1,3 +1,6 @@
+" NOTE: this is based on a .vimrc I found online. However, I am unable to find
+" it again. If anyone recognizes this, please let me know and I will add a
+" reference to the original.
 " ****** Important ******
 set nocompatible
 
