@@ -1,7 +1,9 @@
 # workflow
 Dotfiles and background on how to use my basic coding workflow. This flow
 is not for everyone. In particular, this assumes that you wish to do most
-of your work directly inside your terminal through vim.
+of your work directly inside your terminal through vim. If you wish to
+substitute a different text editor, this will still work but this specific
+workflow may be less well-suited to it.
 
 ## General Notes
 ### Keyboard vs. Mouse
