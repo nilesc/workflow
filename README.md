@@ -72,9 +72,10 @@ setup to best suit one's specific needs.
 ## tmux
 tmux is a terminal multiplexer. In practice, this allows you to turn a single
 terminal prompt into multiple, either in the form of splits on your screen, or
-in the form of multiple pages which can be swapped between, among other
-options. Furthermore, a particular arrangement of windows can be stored even
-when a terminal is closed. This has a number of advantages:
+in the form of multiple pages (in tmux terminology, "windows") which can be
+swapped between, among other options. Furthermore, a particular arrangement of
+windows can be stored even when a terminal is closed. This has a number of
+advantages:
 1.  It allows a user to arrange windows in a way that works well for a
     particular task. As an example, a user may have a setup involving
     1.  a window open in which they are running vim to edit their code
@@ -89,6 +90,8 @@ when a terminal is closed. This has a number of advantages:
     have to keep track of.
 1.  It allows for easy separation of workflows on separate projects, allowing
     for switching between them with minimal overhead.
+1.  It allows a user to more easily jump back into whatever work they were
+    doing when they last stopped.
 
 ### Basic Usage
 tmux is extremely powerful and complex. However, just to scratch the surface,
