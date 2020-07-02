@@ -6,6 +6,15 @@ substitute a different text editor, this will still work but this specific
 workflow may be less well-suited to it.
 
 ## General Notes
+### On the Thoroughness of these Guides
+Most of these tools have extremely well-written guides available online. The
+purpose of this guide is not to try to compete with these. Rather, this is a
+high-level overview aiming to provide a useful subset of the available
+features. I am of the opinion that many of the available guides can be
+intimidating to a new user, and instead provide here a small number of
+commands to help a user immediately get started so that they may determine
+for themselves if it's worth learning about further.
+
 ### Keyboard vs. Mouse
 When possible, always use the keyboard in place of the mouse. This sounds
 silly, but grabbing your mouse will usually take at least a second, and
@@ -19,6 +28,12 @@ properly), but I encourage everyone who spends a lot of time on their
 computer to learn as many keyboard shortcuts as possible. The goal (in my
 opinion) should be to almost completely avoid the mouse while developing unless
 doing something that you're deliberately taking your time with.
+
+### Initial Experience
+When deciding if you want to learn about any of theset tools, I highly
+recommend running some or all of the mentioned commands. This will provide
+hands-on experience which will certainly be more useful than a description of
+capabilities.
 
 ### Continuously Learning
 This is one of the most important things to learn from this whole guide.
